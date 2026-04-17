@@ -3,28 +3,28 @@ import SectionTitle from '../components/SectionTitle';
 
 const projects = [
   {
-    title: 'Task Manager App',
+    title: 'PageTuner',
     description:
-      'A responsive React app that lets users create, organize, and track daily tasks with a clean interface.',
-    tech: 'React, JavaScript, CSS',
-    link: 'https://example.com',
-    github: 'https://github.com/yourusername/task-manager',
-  },
-  {
-    title: 'Notes API',
-    description:
-      'An Express-based backend API for creating, reading, updating, and deleting notes using RESTful routes.',
-    tech: 'Node.js, Express, JavaScript',
+      'Developed a Java-based library management and book recommendation application as part of a team class project.',
+    tech: 'Java, Java Swing, OpenLibrary.org API',
     link: '',
-    github: 'https://github.com/yourusername/notes-api',
+    github: 'https://github.com/PageTuner/PageTuner',
   },
   {
-    title: 'Portfolio Website',
+    title: 'Game Of War',
     description:
-      'A personal portfolio built with React and React Router to showcase projects, skills, and blog writing.',
-    tech: 'React, Vite, React Router, CSS',
-    link: 'https://yourusername.github.io/my-portfolio/',
-    github: 'https://github.com/yourusername/my-portfolio',
+      'Developed a simple yet engaging card game using Java and JavaFX. The game logic compares two randomly drawn cards each round,the player with the higher-value card wins the turn and earns points equal to the card’s value.The match continues until one player reaches a pre-set score threshold.',
+    tech: 'Java, JavaFX',
+    link: '',
+    github: 'https://github.com/JTripple7s/GameOfWar',
+  },
+  {
+    title: 'Human vs AI TTT',
+    description:
+      ' An interactive Tic-Tac-Toe game featuring multiple AI levels ranging from random to unbeatable.',
+    tech: 'JavaScript, CSS, HTML5, Google Fonts, DOM, Minimax algorithm',
+    link: 'https://jtripple7s.github.io/TicTacToe_GameWeb/',
+    github: 'https://github.com/JTripple7s/TicTacToe_GameWeb',
   },
 ];
 
@@ -36,10 +36,10 @@ function Home() {
           <div className="hero-text">
             <p className="hero-eyebrow">Computer Science Student</p>
             <h1>
-              Hi, I’m <span>Your Name</span>
+              Hi, I’m <span>Joel Burlingame</span>
             </h1>
             <p className="hero-description">
-              I’m an aspiring web developer interested in building clean,
+              I’m an aspiring software engineer/web developer interested in building clean,
               user-friendly applications with React, Node.js, and Express.
             </p>
 
@@ -55,8 +55,8 @@ function Home() {
 
           <div className="hero-image-wrapper">
             <img
-              src={`${import.meta.env.BASE_URL}pngtree-gray-network-placeholder-png-image_3416659`} //profilePic
-              alt="Portrait of Your Name"
+              src={`${import.meta.env.BASE_URL}web_first_images_release.png`} //profilePic
+              alt="Portrait of name"
               className="hero-image"
             />
           </div>
@@ -68,7 +68,7 @@ function Home() {
           <SectionTitle
             eyebrow="About Me"
             title="A little about who I am"
-            subtitle="Customize this section with your major, interests, experience, and career goals."
+            subtitle="More than just a Computer Science student"
           />
 
           <div className="about-grid">
@@ -106,7 +106,7 @@ function Home() {
           <SectionTitle
             eyebrow="Projects"
             title="Things I’ve built"
-            subtitle="Include class assignments, personal projects, or even strong project ideas."
+            subtitle="These include class assignments I have done in the past"
           />
 
           <div className="projects-grid">
@@ -129,31 +129,31 @@ function Home() {
           <SectionTitle
             eyebrow="Contact"
             title="Let’s connect"
-            subtitle="Replace these links with your real contact information."
+            subtitle="You can contact me here."
           />
 
           <div className="contact-card">
             <p>
-              <strong>Email:</strong> yourname@example.com
+              <strong>Email:</strong> jtburlingame777@gmail.com
             </p>
             <p>
               <strong>GitHub:</strong>{' '}
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/JTripple7s"
                 target="_blank"
                 rel="noreferrer"
               >
-                github.com/yourusername
+                github.com/JTripple7s
               </a>
             </p>
             <p>
               <strong>LinkedIn:</strong>{' '}
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="www.linkedin.com/in/joelburlingame777"
                 target="_blank"
                 rel="noreferrer"
               >
-                linkedin.com/in/yourusername
+                linkedin.com/in/joelburlingame777
               </a>
             </p>
           </div>

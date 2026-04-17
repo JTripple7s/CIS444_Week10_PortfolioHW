@@ -8,7 +8,7 @@ function Navbar() {
     <header className="navbar">
       <div className="container nav-content">
         <Link to="/" className="nav-logo">
-          YourName.dev
+          JoelBurlingame.dev
         </Link>
 
         <nav className="nav-links">

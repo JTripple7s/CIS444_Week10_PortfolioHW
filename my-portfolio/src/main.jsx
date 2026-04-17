@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 
 const basename =
-  import.meta.env.MODE === 'production' ? '/my-portfolio' : '/';
+  import.meta.env.MODE === 'production' ? '/CIS444_Week10_PortfolioHW/' : '/';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
