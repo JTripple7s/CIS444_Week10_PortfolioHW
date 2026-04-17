@@ -29,6 +29,13 @@ const projects = [
 ];
 
 function Home() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element){
+      element.scrollIntoView({behavior: 'smooth' });
+    }
+  };
+
   return (
     <main>
       <section className="hero">
@@ -44,12 +51,20 @@ function Home() {
             </p>
 
             <div className="hero-actions">
-              <a href="#projects" className="button button-primary">
+              <button
+                type="button"
+                className="button button-primary"
+                onClick={() => scrollToSection('projects')}
+              >
                 View Projects
-              </a>
-              <a href="#contact" className="button button-secondary">
+                </button>
+              <button
+                type="button"
+                className="button button-secondary"
+                onClick={() => scrollToSection('contact')}
+              >
                 Contact Me
-              </a>
+              </button>
             </div>
           </div>
 
